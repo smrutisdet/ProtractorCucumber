@@ -1,0 +1,474 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Validate the calculator Application developed in angularjs",
+    "line": 1,
+    "id": "validate-the-calculator-application-developed-in-angularjs",
+    "tags": [],
+    "uri": "Features\\demo.feature",
+    "elements": [
+      {
+        "id": "validate-the-calculator-application-developed-in-angularjs;test-add-functionality",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Test Add functionality",
+        "tags": [
+          {
+            "name": "@Calculator",
+            "line": 2
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "StepDefinition\\hooks.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "StepDefinition\\hooks.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User Navigates to \"Calculator\" Application",
+            "match": {
+              "location": "StepDefinition\\steps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 462000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "User adds two numbers \"3\" and \"5\"",
+            "match": {
+              "location": "StepDefinition\\steps.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 290000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "output displayed should be \"8\"",
+            "match": {
+              "location": "StepDefinition\\steps.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1846000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "StepDefinition\\hooks.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "StepDefinition\\hooks.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "validate-the-calculator-application-developed-in-angularjs;test-add-functionality",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Test Add functionality",
+        "tags": [
+          {
+            "name": "@Calculator",
+            "line": 2
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "StepDefinition\\hooks.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "StepDefinition\\hooks.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User Navigates to \"Calculator\" Application",
+            "match": {
+              "location": "StepDefinition\\steps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 326000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "User adds two numbers \"30\" and \"50\"",
+            "match": {
+              "location": "StepDefinition\\steps.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 230000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "output displayed should be \"80\"",
+            "match": {
+              "location": "StepDefinition\\steps.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1918000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "StepDefinition\\hooks.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "StepDefinition\\hooks.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": "validate-the-calculator-application-developed-in-angularjs;navigate-to-angular-site-and-enter-hello-in-search-box",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Navigate to Angular Site and Enter hello in Search box",
+        "tags": [
+          {
+            "name": "@Angular",
+            "line": 11
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "StepDefinition\\hooks.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "StepDefinition\\hooks.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 13,
+            "name": "User Navigates to \"Angularjs\" Application",
+            "match": {
+              "location": "StepDefinition\\steps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2690000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "User Clicked on header Angular Io link",
+            "match": {
+              "location": "StepDefinition\\steps.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1373000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "user navigates to angular page",
+            "match": {
+              "location": "StepDefinition\\steps.ts:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "User Enters \"Hello\" in the search box",
+            "match": {
+              "location": "StepDefinition\\steps.ts:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1635000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "StepDefinition\\hooks.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "StepDefinition\\hooks.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "validate-the-calculator-application-developed-in-angularjs;navigate-to-angular-site-and-enter-hello-in-search-box",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Navigate to Angular Site and Enter hello in Search box",
+        "tags": [
+          {
+            "name": "@Angular",
+            "line": 11
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "StepDefinition\\hooks.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "StepDefinition\\hooks.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 13,
+            "name": "User Navigates to \"Angularjs\" Application",
+            "match": {
+              "location": "StepDefinition\\steps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 985000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "User Clicked on header Angular Io link",
+            "match": {
+              "location": "StepDefinition\\steps.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1176000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "user navigates to angular page",
+            "match": {
+              "location": "StepDefinition\\steps.ts:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "User Enters \"Hi\" in the search box",
+            "match": {
+              "location": "StepDefinition\\steps.ts:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1692000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "StepDefinition\\hooks.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "StepDefinition\\hooks.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
